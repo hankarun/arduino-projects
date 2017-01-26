@@ -1,5 +1,5 @@
 // sketch 03-05
-int defC = 20;
+int deC = 20;
 
 void setup()
 {
