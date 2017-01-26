@@ -1,14 +1,19 @@
 // sketch 03-05
+int defC = 20;
+
 void setup()
 {
   Serial.begin(9600);
-  int degC = 20;
+}
+
+void loop()
+{
+  Serial.println("Selam ve dua ile");
   int degF;
   degF = degC * 9 / 5 + 32;
+  degC++;
   Serial.println(degF); 
 }
-void loop()
-{}
 
 
 
