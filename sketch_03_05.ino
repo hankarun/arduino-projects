@@ -1,5 +1,5 @@
 // sketch 03-05
-int deC = 20;
+int degC = 20;
 
 void setup()
 {
